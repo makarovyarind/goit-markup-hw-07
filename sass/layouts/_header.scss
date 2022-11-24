@@ -4,7 +4,7 @@
     padding-bottom: 25px;
     border-bottom: 1px solid #ececec;
 
-.&__container {
+    &__container {
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -12,7 +12,7 @@
     flex-grow: 1;
 }
 
-.header__menu {
+    &__menu {
     display: flex;
     align-items: center;
     gap: 93px;
@@ -20,7 +20,7 @@
     list-style-type: none;
 }
 
-.header__logo {
+    &__logo {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-size: 26px;
@@ -30,17 +30,17 @@
 
 }
 
-.header__logo--blue {
+    &__logo--blue {
     color: var(--color-accent);
     text-transform: capitalize;
 }
 
-.header__logo--black {
+    &__logo--black {
     color: var(--color-pimery);
     text-transform: capitalize;
 }
 
-.header__nav {
+    &__nav {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -49,7 +49,7 @@
     margin: 0;
 }
 
-.header__list--link {
+    &__list--link {
     position: relative;
     color: var(--color-pimery);
     font-weight: 500;
@@ -60,7 +60,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__list--link::after {
+    &__list--link::after {
     content: '';
     display: block;
     position: absolute;
@@ -74,23 +74,23 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__list--link:hover::after {
+    &__list--link:hover::after {
     opacity: 1;
 }
 
-.header__list--link:hover {
+    &__list--link:hover {
     color: var(--color-accent);
 }
 
-.header__list--link:focus {
+    &__list--link:focus {
     color: var(--color-accent);
 }
 
-.header__list-emphasis {
+    &__list-emphasis {
     color: var(--color-accent);
 }
 
-.header__list-emphasis::after {
+    &__list-emphasis::after {
     content: '';
     display: block;
     position: absolute;
@@ -104,7 +104,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contacts {
+    &__contacts {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -113,7 +113,7 @@
     margin: 0;
 }
 
-.header__contact {
+    &__contact {
     color: var(--color-secondary);
     line-height: 1.14;
     font-weight: 500;
@@ -123,20 +123,21 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contact:hover {
+    &__contact:hover {
     color: var(--color-accent);
     fill: var(--color-accent);
 }
 
-.header__contact:focus {
+    &__contact:focus {
     color: var(--color-accent);
     fill: var(--color-accent);
 }
 
-.header__contact--position {
+    &__contact--position {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
+
 }
